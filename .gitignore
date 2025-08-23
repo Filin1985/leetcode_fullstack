@@ -1,14 +1,19 @@
-.DS_*
-*.log
+# Logs
 logs
-**/*.backup.*
-**/*.back.*
+*.log
+npm-debug.log*
 
+# Dependency directory
 node_modules
-bower_components
 
-*.sublime*
+# Optional npm cache directory
+.npm
+.env
 
-psd
-thumb
-sketch
+# Optional REPL history
+.DS_Store
+.idea
+.vscode
+
+# Logs
+*.log
